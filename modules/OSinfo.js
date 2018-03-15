@@ -20,5 +20,4 @@ function getOSinfo() {
     console.log('User name:'.blue, userInfo.username);
     console.log('Home dir:'.red, userInfo.homedir);
 }
-
 exports.print = getOSinfo;
